@@ -18,8 +18,22 @@
         .box {
             width: 200px;
             height: 200px;
-            background: green;
+            background: green;            
             margin: 30px;
+            opacity: 0.5; 
+            span{
+                color: $white;
+                font-family: $main-font;
+                font-size: $main-size;
+            }           
+        }
+        .animation:hover{
+            opacity: 1;
+            transform: scale(1.1);
+            box-shadow: 10px 5px 5px black;
+            span {
+                font-size: 30px;
+            }
         }
     }
     .header{
