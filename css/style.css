@@ -51,6 +51,15 @@
       opacity: 1; }
     .container .content .box:hover {
       transform: scale(1.2); }
+    .container .content .audiofile {
+      position: absolute;
+      display: block;
+      bottom: -3px; }
+    .container .content audio {
+      width: 200px;
+      opacity: 0.5;
+      transition: all 0.3s ease-in-out;
+      background-color: #black; }
   .container .header {
     margin: 30px auto; }
     .container .header h1 {

@@ -59,6 +59,18 @@
         .box:hover{
             transform: scale(1.2);
         }
+        .audiofile{
+            position: absolute;
+            display:block;
+            bottom:-3px;
+        
+        }
+        audio{
+            width: 200px;
+            opacity:0.5;
+            transition: all 0.3s ease-in-out;
+            background-color: #black;
+        }
         
     }
     .header{
